@@ -14,12 +14,12 @@ void servo_init(){
 
 bool servo_update(uint16_t position){
 
-	if (position < 1100){
-		pwm_updateDuty(1100);  // Only update to lower limit
+	if (position < MIN_DUTY){
+		pwm_updateDuty(MIN_DUTY);  // Only update to lower limit
 		return false;
 	}
-	else if (position > 2200){
-		pwm_updateDuty(2200);  // Only update to upper limit
+	else if (position > MAX_DUTY){
+		pwm_updateDuty(MAX_DUTY);  // Only update to upper limit
 		return false;
 	}
 	else{

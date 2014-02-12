@@ -12,6 +12,8 @@
 #include <stdbool.h>
 
 #define PERIOD 22000 // Number of clock ticks required for 50Hz @ ~1.1MHz
+#define MIN_DUTY 1100
+#define MAX_DUTY 2200
 
 void servo_init(void);
 

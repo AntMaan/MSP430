@@ -1,0 +1,1 @@
+"./drivers/servo.obj" "./services/pwm.obj" "./main.obj" "../lnk_msp430g2553.cmd" -l"libc.a" 

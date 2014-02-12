@@ -1,13 +1,16 @@
-MSP430
+MSP430 Libraries
 ======
 
-Folder Structure
-
--Examples
--Libraries
--src
-	-drivers
-	-services
-	-config
-
+###Description
 Libraries and example projects for MSP430
+
+###Folder Structure
+
+- Examples
+- Libraries
+- src
+	- drivers
+	- services
+	- config
+
+
